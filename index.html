@@ -1,33 +1,117 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alexsander Santos | Desenvolvedor Java</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 700px;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 400;
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cbd5e1;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .primary {
+      background-color: #38bdf8;
+      color: #0f172a;
+    }
+
+    .primary:hover {
+      background-color: #0ea5e9;
+    }
+
+    .secondary {
+      border: 2px solid #38bdf8;
+      color: #38bdf8;
+    }
+
+    .secondary:hover {
+      background-color: #38bdf8;
+      color: #0f172a;
+    }
+
+    .tech {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 100px;">
+<body>
 
-  <h1>Alexsander Santos</h1>
-  <h2>Desenvolvedor Java em formação</h2>
+  <div class="container">
+    <h1>Alexsander Santos</h1>
+    <h2>Desenvolvedor Java em formação</h2>
 
-  <p>
-    Estudante de Análise e Desenvolvimento de Sistemas,
-    focado em Java e Programação Orientada a Objetos.
-  </p>
+    <p>
+      Estudante de Análise e Desenvolvimento de Sistemas,
+      focado em Java, Programação Orientada a Objetos e construção
+      de bases sólidas para atuar como desenvolvedor backend.
+    </p>
 
-  <h3>Projetos</h3>
+    <div class="buttons">
+      <a href="https://github.com/Alexsander96-dev/java-poo-praticas" class="btn primary">
+        Ver Projetos
+      </a>
 
-  <p>
-    <a href="https://github.com/Alexsander96-dev/java-poo-praticas">
-      📂 Java - Práticas de POO
-    </a>
-  </p>
+      <a href="https://github.com/Alexsander96-dev" class="btn secondary">
+        Meu GitHub
+      </a>
+    </div>
 
-  <p>
-    <a href="https://github.com/Alexsander96-dev">
-      🔗 Meu GitHub
-    </a>
-  </p>
+    <div class="tech">
+      Java • POO • Collections • Streams • Git • GitHub
+    </div>
+  </div>
 
 </body>
 </html>
